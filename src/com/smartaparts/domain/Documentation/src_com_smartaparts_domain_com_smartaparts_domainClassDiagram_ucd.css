@@ -1,0 +1,126 @@
+#src_com_smartaparts_domain_com_smartaparts_domainClassDiagram_ucd{
+width: 1822;
+height: 2408;
+overflow: hidden;
+background: url(src_com_smartaparts_domain_com_smartaparts_domainClassDiagram_ucd.png) top left no-repeat;
+}
+#com_smartaparts_domain_Appartamento{
+position: absolute;
+float: left;
+width: 172;
+height: 2025;
+margin-left: 615;
+margin-top: 373;
+}
+#com_smartaparts_domain_Utente{
+position: absolute;
+float: left;
+width: 188;
+height: 829;
+margin-left: 1624;
+margin-top: 220;
+}
+#com_smartaparts_domain_Ordine{
+position: absolute;
+float: left;
+width: 150;
+height: 392;
+margin-left: 1245;
+margin-top: 429;
+}
+#com_smartaparts_domain_Foto{
+position: absolute;
+float: left;
+width: 150;
+height: 116;
+margin-left: 962;
+margin-top: 890;
+}
+#com_smartaparts_domain_Prezzo{
+position: absolute;
+float: left;
+width: 150;
+height: 116;
+margin-left: 963;
+margin-top: 1029;
+}
+#com_smartaparts_domain_Sconto{
+position: absolute;
+float: left;
+width: 150;
+height: 116;
+margin-left: 965;
+margin-top: 1158;
+}
+#com_smartaparts_domain_LastMinute{
+position: absolute;
+float: left;
+width: 150;
+height: 116;
+margin-left: 966;
+margin-top: 1284;
+}
+#com_smartaparts_domain_Continente{
+position: absolute;
+float: left;
+width: 188;
+height: 553;
+margin-left: 20;
+margin-top: 260;
+}
+#com_smartaparts_domain_Nazione{
+position: absolute;
+float: left;
+width: 188;
+height: 645;
+margin-left: 28;
+margin-top: 947;
+}
+#com_smartaparts_domain_Citta{
+position: absolute;
+float: left;
+width: 188;
+height: 622;
+margin-left: 326;
+margin-top: 1144;
+}
+#com_smartaparts_domain_Zona{
+position: absolute;
+float: left;
+width: 188;
+height: 392;
+margin-left: 300;
+margin-top: 262;
+}
+#com_smartaparts_domain_Geo{
+position: absolute;
+float: left;
+width: 76;
+height: 55;
+margin-left: 252;
+margin-top: 836;
+}
+#com_smartaparts_domain_Commento{
+position: absolute;
+float: left;
+width: 150;
+height: 254;
+margin-left: 993;
+margin-top: 135;
+}
+#com_smartaparts_domain_Tipologia{
+position: absolute;
+float: left;
+width: 152;
+height: 323;
+margin-left: 1273;
+margin-top: 10;
+}
+#com_smartaparts_domain_FInalita{
+position: absolute;
+float: left;
+width: 152;
+height: 323;
+margin-left: 1428;
+margin-top: 10;
+}

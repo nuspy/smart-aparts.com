@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="com.smartaparts.domainClassDiagram" id="{UMLID=_6zNtUFEEEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain}" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledY="1287" tag="100" key="323030373036323920536D6172742D417061727473">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.9/@sourceConnections.2 //@children.10/@sourceConnections.1 //@children.7/@sourceConnections.2 //@children.8/@sourceConnections.2 //@children.16/@sourceConnections.1" name="Appartamento" location="615,321" size="178,2048" timstampe="72" stereotype="" id="{UMLID=_b-C6gFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento}" runTimeClassModel="proprietario,clearSconti(),removeFotos(Lcom.smartaparts.domain.Foto;),lastMinutesToArray(),getZona(),removeSconti(Lcom.smartaparts.domain.Sconto;),getProprietario(),getLastMinutes(),containsAllPrezzi(LCollection;),commentiSize(),clearPrezzi(),addPrezzi(Lcom.smartaparts.domain.Prezzo;),setFotos(LCollection;),setCitta(Lcom.smartaparts.domain.Citta;),lastMinutesSize(),containsPrezzi(Lcom.smartaparts.domain.Prezzo;),lastMinutesIterator(),addOrdini(Lcom.smartaparts.domain.Ordine;),commentiIterator(),continente,getOrdini(),isCommentiEmpty(),setLastMinutes(LCollection;),prezziToArray(),clearOrdini(),scontiSize(),setContinente(Lcom.smartaparts.domain.Continente;),citta,setZona(Lcom.smartaparts.domain.Zona;),ordini,ordiniToArray(),isOrdiniEmpty(),setPrezzi(LCollection;),fotosToArray(),addSconti(Lcom.smartaparts.domain.Sconto;),addFotos(Lcom.smartaparts.domain.Foto;),containsAllLastMinutes(LCollection;),containsCommenti(Lcom.smartaparts.domain.Commento;),containsAllCommenti(LCollection;),setSconti(LCollection;),getPrezzi(),getNazione(),ordiniIterator(),commentiToArray(),fotosIterator(),scontiIterator(),fotosSize(),setProprietario(Lcom.smartaparts.domain.Proprietario;),isFotosEmpty(),containsOrdini(Lcom.smartaparts.domain.Ordine;),getCommenti(),setOrdini(LCollection;),getSconti(),containsLastMinutes(Lcom.smartaparts.domain.LastMinute;),clearCommenti(),clearFotos(),prezzi,scontiToArray(),nazione,setNazione(Lcom.smartaparts.domain.Nazione;),removeOrdini(Lcom.smartaparts.domain.Ordine;),prezziSize(),getContinente(),addLastMinutes(Lcom.smartaparts.domain.LastMinute;),prezziIterator(),sconti,ordiniSize(),addCommenti(Lcom.smartaparts.domain.Commento;),fotos,clearLastMinutes(),commenti,getCitta(),isPrezziEmpty(),containsSconti(Lcom.smartaparts.domain.Sconto;),isScontiEmpty(),removeCommenti(Lcom.smartaparts.domain.Commento;),lastMinutes,getFotos(),removeLastMinutes(Lcom.smartaparts.domain.LastMinute;),containsFotos(Lcom.smartaparts.domain.Foto;),zona,containsAllFotos(LCollection;),isLastMinutesEmpty(),setCommenti(LCollection;),containsAllSconti(LCollection;),containsAllOrdini(LCollection;),removePrezzi(Lcom.smartaparts.domain.Prezzo;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,253">
+      <children xsi:type="editmodel:AttributeEditModel" name="proprietario" size="90,21" id="{UMLID=_eRwDcFG-EeCPMqo0_hyqxA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zona" size="59,21" id="{UMLID=_fTAj1FEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nazione" size="73,21" id="{UMLID=_lMqe0FEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="citta" size="55,21" id="{UMLID=_V8k_81EIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="commenti" size="84,21" id="{UMLID=_LKCDYFEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prezzi" size="69,21" id="{UMLID=_m0XuYVEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fotos" size="54,21" id="{UMLID=_hSIN0VEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sconti" size="68,21" id="{UMLID=_tbVbUVEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lastMinutes" size="83,21" id="{UMLID=_xUk9wFEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ordini" size="65,21" id="{UMLID=_GaV2kFEHEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="continente" size="85,21" id="{UMLID=_opr_U1EIEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,1725">
+      <children xsi:type="editmodel:MethodEditModel" name="getContinente" size="112,21" id="{UMLID=_MBz_8FEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getContinente()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContinente" size="112,21" id="{UMLID=_sJ3hglEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setContinente(Lcom.smartaparts.domain.Continente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdini" size="122,21" id="{UMLID=_zIOFolEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniIterator" size="103,21" id="{UMLID=_jfIQ4FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#ordiniIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOrdiniEmpty" size="120,21" id="{UMLID=_zIM3gFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isOrdiniEmpty()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsOrdini" size="135,21" id="{UMLID=_vAOVgVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllFotos" size="93,21" id="{UMLID=_vASm8lEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllFotos(LCollection;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniSize" size="139,21" id="{UMLID=_zILpY1EGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#ordiniSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniToArray" size="110,21" id="{UMLID=_RcnRMlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#ordiniToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllCommenti" size="133,21" id="{UMLID=_zILCUlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllCommenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOrdini" size="133,21" id="{UMLID=_G5Nj4lEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addOrdini(Lcom.smartaparts.domain.Ordine;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeOrdini" size="151,21" id="{UMLID=_zIRI8lEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removeOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearOrdini" size="99,21" id="{UMLID=_jfOXglEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastMinutes" size="120,21" id="{UMLID=_MB11IVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getLastMinutes()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastMinutesIterator" size="133,21" id="{UMLID=_oUO-oVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#lastMinutesIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isLastMinutesEmpty" size="128,21" id="{UMLID=_zIQh4lEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isLastMinutesEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsLastMinutes" size="133,21" id="{UMLID=_vAUcIFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsLastMinutes(Lcom.smartaparts.domain.LastMinute;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPrezzi" size="129,21" id="{UMLID=_MB0nAFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setPrezzi(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastMinutesSize" size="115,21" id="{UMLID=_zIKbQVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#lastMinutesSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastMinutesToArray" size="117,21" id="{UMLID=_oUSB8FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#lastMinutesToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFotos" size="120,21" id="{UMLID=_G5OyAVEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setFotos(LCollection;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLastMinutes" size="113,21" id="{UMLID=_vAQKsVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addLastMinutes(Lcom.smartaparts.domain.LastMinute;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLastMinutes" size="116,21" id="{UMLID=_zIOssFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removeLastMinutes(Lcom.smartaparts.domain.LastMinute;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearLastMinutes" size="133,21" id="{UMLID=_nzXbUFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearLastMinutes()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSconti" size="121,21" id="{UMLID=_vANHZFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getSconti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="scontiIterator" size="120,21" id="{UMLID=_jfPlolEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#scontiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isScontiEmpty" size="91,21" id="{UMLID=_jfKGE1EGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isScontiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsSconti" size="118,21" id="{UMLID=_jfKtIFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsSconti(Lcom.smartaparts.domain.Sconto;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCommenti" size="98,21" id="{UMLID=_vAR_4FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setCommenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="scontiSize" size="86,21" id="{UMLID=_jfMiVFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#scontiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="scontiToArray" size="95,21" id="{UMLID=_vAPjoFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#scontiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllSconti" size="151,21" id="{UMLID=_6dMIEVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllSconti(LCollection;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addSconti" size="104,21" id="{UMLID=_vAQxwVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addSconti(Lcom.smartaparts.domain.Sconto;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeSconti" size="117,21" id="{UMLID=_oUNJclEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removeSconti(Lcom.smartaparts.domain.Sconto;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearSconti" size="116,21" id="{UMLID=_oUT3IFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearSconti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFotos" size="108,21" id="{UMLID=_jfJfAVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getFotos()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fotosIterator" size="92,21" id="{UMLID=_6dMvJFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#fotosIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isFotosEmpty" size="119,21" id="{UMLID=_oUQMwlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isFotosEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsFotos" size="82,21" id="{UMLID=_fxlegVG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Appartamento#containsFotos(Lcom.smartaparts.domain.Foto;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllLastMinutes" size="102,21" id="{UMLID=_Rcq7klEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllLastMinutes(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fotosSize" size="82,21" id="{UMLID=_jfO-klEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#fotosSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fotosToArray" size="121,21" id="{UMLID=_oUSpAVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#fotosToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLastMinutes" size="85,21" id="{UMLID=_jfNwcFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setLastMinutes(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFotos" size="104,21" id="{UMLID=_jfLUMlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addFotos(Lcom.smartaparts.domain.Foto;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeFotos" size="95,21" id="{UMLID=_oUQz1FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removeFotos(Lcom.smartaparts.domain.Foto;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearFotos" size="101,21" id="{UMLID=_oUOXklEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearFotos()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrezzi" size="133,21" id="{UMLID=_MBzY4VEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getPrezzi()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prezziIterator" size="133,21" id="{UMLID=_jvKmElEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#prezziIterator()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPrezziEmpty" size="120,21" id="{UMLID=_RcpGYVEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isPrezziEmpty()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsPrezzi" size="114,21" id="{UMLID=_oUNwglEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsPrezzi(Lcom.smartaparts.domain.Prezzo;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllPrezzi" size="134,21" id="{UMLID=_zIP60FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllPrezzi(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prezziSize" size="104,21" id="{UMLID=_oUO-oFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#prezziSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prezziToArray" size="113,21" id="{UMLID=_fxk3cVG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Appartamento#prezziToArray()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSconti" size="104,21" id="{UMLID=_jfL7QlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setSconti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPrezzi" size="111,21" id="{UMLID=_MB3DQFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addPrezzi(Lcom.smartaparts.domain.Prezzo;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePrezzi" size="137,21" id="{UMLID=_MB11IlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removePrezzi(Lcom.smartaparts.domain.Prezzo;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearPrezzi" size="98,21" id="{UMLID=_oUL7UlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearPrezzi()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCommenti" size="132,21" id="{UMLID=_Rcn4QlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getCommenti()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiIterator" size="149,21" id="{UMLID=_vAVDMlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#commentiIterator()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCommentiEmpty" size="133,21" id="{UMLID=_RcsJslEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#isCommentiEmpty()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsCommenti" size="134,21" id="{UMLID=_MBw8olEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsCommenti(Lcom.smartaparts.domain.Commento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllOrdini" size="115,21" id="{UMLID=_RcrioFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#containsAllOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiSize" size="151,21" id="{UMLID=_MByKwlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#commentiSize()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiToArray" size="149,21" id="{UMLID=_nzYCYVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#commentiToArray()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdini" size="95,21" id="{UMLID=_akrzgVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setOrdini(LCollection;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCommenti" size="93,21" id="{UMLID=_MBxjtFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#addCommenti(Lcom.smartaparts.domain.Commento;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeCommenti" size="92,21" id="{UMLID=_zINeklEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#removeCommenti(Lcom.smartaparts.domain.Commento;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearCommenti" size="114,21" id="{UMLID=_vATOAlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#clearCommenti()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCitta" size="111,21" id="{UMLID=_MB3qUFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getCitta()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCitta" size="95,21" id="{UMLID=_vAQxwlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setCitta(Lcom.smartaparts.domain.Citta;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNazione" size="100,21" id="{UMLID=_RcqUglEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getNazione()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNazione" size="100,21" id="{UMLID=_RcswwlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setNazione(Lcom.smartaparts.domain.Nazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getZona" size="93,21" id="{UMLID=_Rcptc1EHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getZona()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setZona" size="133,21" id="{UMLID=_zISXEFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setZona(Lcom.smartaparts.domain.Zona;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProprietario" size="113,21" id="{UMLID=_MB1OEVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#getProprietario()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setProprietario" size="133,21" id="{UMLID=_aksakVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Appartamento#setProprietario(Lcom.smartaparts.domain.Proprietario;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_hSIN0FEGEeCABYh4XD7hOQ}" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="178,542" id="{UMLID=_hSI04FEGEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,869" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,841" size="73,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fotos" location="15,93" id="{UMLID=_hSIN0VEGEeCABYh4XD7hOQ}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="926,869" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- fotos" location="898,841" size="32,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_m0XuYFEGEeCABYh4XD7hOQ}" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="178,714" id="{UMLID=_m0YVcFEGEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,1041" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,1013" size="73,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="prezzi" location="13,58" id="{UMLID=_m0XuYVEGEeCABYh4XD7hOQ}" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="951,1041" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- prezzi" location="918,1013" size="37,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_tbVbUFEGEeCABYh4XD7hOQ}" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="178,843" id="{UMLID=_tbVbVFEGEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,1171" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,1143" size="73,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sconti" location="0,58" id="{UMLID=_tbVbUVEGEeCABYh4XD7hOQ}" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="953,1171" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- sconti" location="921,1143" size="36,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_xUkWsFEGEeCABYh4XD7hOQ}" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.3/@children.1" label="//@children.0/@sourceConnections.3/@children.2" sourceEnd="//@children.0/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="178,969" id="{UMLID=_xUk9w1EGEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.3/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.3/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,1296" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,1268" size="73,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lastMinutes" location="0,58" id="{UMLID=_xUk9wFEGEeCABYh4XD7hOQ}" multiplicityLabel="//@children.0/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="954,1296" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- lastMinutes" location="897,1268" size="61,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Composition" id="{UMLID=_LKBcUFEIEeCABYh4XD7hOQ}" source="//@children.0" target="//@children.12" targetEnd="//@children.0/@sourceConnections.4/@children.1" label="//@children.0/@sourceConnections.4/@children.2" sourceEnd="//@children.0/@sourceConnections.4/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="184,7" id="{UMLID=_LKCDY1EIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.4/@children.0/@children.0" roleLabel="//@children.0/@sourceConnections.4/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,335" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,307" size="73,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="commenti" location="-1,245" id="{UMLID=_LKCDYFEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.0/@sourceConnections.4/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.4/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="981,335" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- commenti" location="933,307" size="52,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.16/@sourceConnections.0" name="Utente" location="1614,210" size="188,770" timstampe="33" stereotype="" id="{UMLID=_gfJuMFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente}" runTimeClassModel="containsOrdini(Lcom.smartaparts.domain.Ordine;),getCommenti(),setOrdini(LCollection;),clearCommenti(),commentiSize(),addOrdini(Lcom.smartaparts.domain.Ordine;),commentiIterator(),removeOrdini(Lcom.smartaparts.domain.Ordine;),ordiniSize(),getOrdini(),addCommenti(Lcom.smartaparts.domain.Commento;),isCommentiEmpty(),clearOrdini(),commenti,ordini,ordiniToArray(),isOrdiniEmpty(),removeCommenti(Lcom.smartaparts.domain.Commento;),containsCommenti(Lcom.smartaparts.domain.Commento;),containsAllCommenti(LCollection;),ordiniIterator(),setAutorizzazione(Lcom.smartaparts.domain.Autorizzazione;),getAutorizzazione(),setCommenti(LCollection;),autorizzazione,commentiToArray(),containsAllOrdini(LCollection;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,92">
+      <children xsi:type="editmodel:AttributeEditModel" name="ordini" size="65,21" id="{UMLID=_AB1cYVEHEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="commenti" size="84,21" id="{UMLID=_Ja-gkFEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="autorizzazione" size="106,21" id="{UMLID=_xBKgQFELEeCZg4ntwV2U2A}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,805">
+      <children xsi:type="editmodel:MethodEditModel" name="getAutorizzazione" size="149,21" id="{UMLID=_AJeVclEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#getAutorizzazione()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAutorizzazione" size="134,21" id="{UMLID=_AJh_0VEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#setAutorizzazione(Lcom.smartaparts.domain.Autorizzazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCommenti" size="114,21" id="{UMLID=_JpZXEFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#getCommenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiIterator" size="133,21" id="{UMLID=_JpcaYFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#commentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCommentiEmpty" size="132,21" id="{UMLID=_JpYI8lEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#isCommentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsCommenti" size="119,21" id="{UMLID=_AJe8glEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#containsCommenti(Lcom.smartaparts.domain.Commento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdini" size="134,21" id="{UMLID=_JpW60lEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#setOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiSize" size="129,21" id="{UMLID=_AJgxsFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#commentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commentiToArray" size="97,21" id="{UMLID=_AJim41EHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#commentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllOrdini" size="114,21" id="{UMLID=_AJkcEVEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#containsAllOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCommenti" size="111,21" id="{UMLID=_JpWTwlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#addCommenti(Lcom.smartaparts.domain.Commento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeCommenti" size="96,21" id="{UMLID=_AJhYwFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#removeCommenti(Lcom.smartaparts.domain.Commento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearCommenti" size="137,21" id="{UMLID=_JpbMQlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#clearCommenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdini" size="149,21" id="{UMLID=_xgmOQFELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Utente#getOrdini()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniIterator" size="155,21" id="{UMLID=_6eLmkFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#ordiniIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOrdiniEmpty" size="93,21" id="{UMLID=_AJgKoFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#isOrdiniEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsOrdini" size="133,21" id="{UMLID=_6eJKUVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#containsOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllCommenti" size="120,21" id="{UMLID=_JpZ-IlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#containsAllCommenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniSize" size="167,21" id="{UMLID=_JpalMFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#ordiniSize()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniToArray" size="167,21" id="{UMLID=_6eIjQFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#ordiniToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCommenti" size="116,21" id="{UMLID=_JpcaY1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#setCommenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOrdini" size="110,21" id="{UMLID=_AJlqMlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#addOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeOrdini" size="115,21" id="{UMLID=_AJlDIlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#removeOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearOrdini" size="129,21" id="{UMLID=_6eKYclEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Utente#clearOrdini()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Aggregation" autoLocated="true" id="{UMLID=_AB1cYFEHEeCABYh4XD7hOQ}" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="utente" location="0,400" id="{UMLID=_AB1cZFEHEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1600,616" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- utente" location="1569,588" size="37,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ordini" location="150,196" id="{UMLID=_AB1cYVEHEeCABYh4XD7hOQ}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1345,616" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- ordini" location="1345,588" size="33,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Aggregation" id="{UMLID=_Ja95gFEIEeCABYh4XD7hOQ}" source="//@children.1" target="//@children.12" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="utente" location="0,125" id="{UMLID=_Ja-gk1EIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.1/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1600,313" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- utente" location="1569,341" size="37,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="commenti" location="150,233" id="{UMLID=_Ja-gkFEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.1/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1149,323" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- commenti" location="1149,295" size="52,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Default" autoLocated="true" id="{UMLID=_xBJSIFELEeCZg4ntwV2U2A}" source="//@children.1" target="//@children.15" targetEnd="//@children.1/@sourceConnections.2/@children.1" label="//@children.1/@sourceConnections.2/@children.2" sourceEnd="//@children.1/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="utenti" location="92,770" id="{UMLID=_xBLHUFELEeCZg4ntwV2U2A}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.1/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1694,987" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- utenti" location="1712,987" size="33,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="autorizzazione" location="75,0" id="{UMLID=_xBKgQFELEeCZg4ntwV2U2A}" multiplicityLabel="//@children.1/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1692,1027" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- autorizzazione" location="1712,1027" size="78,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Ordine" location="1189,414" size="150,392" timstampe="41" stereotype="" id="{UMLID=_ixLbMFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine}" runTimeClassModel="getUtente(),getCommento(),getTipologia(),getFInalita(),utente,setTipologia(Lcom.smartaparts.domain.Tipologia;),setFInalita(Lcom.smartaparts.domain.FInalita;),setAppartamento(Lcom.smartaparts.domain.Appartamento;),tipologia,getAppartamento(),commento,setCommento(Lcom.smartaparts.domain.Commento;),appartamento,setUtente(Lcom.smartaparts.domain.Utente;),fInalita">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,115">
+      <children xsi:type="editmodel:AttributeEditModel" name="commento" size="84,21" id="{UMLID=_0b10MFEHEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="utente" size="65,21" id="{UMLID=_AB1cZFEHEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipologia" size="74,21" id="{UMLID=_WbGSgFEJEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fInalita" size="66,21" id="{UMLID=_cdn1oVEJEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_GaVPgVEHEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,230">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_G6TJAFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_G6TwEFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFInalita" size="94,21" id="{UMLID=_gWEt4FEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#getFInalita()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFInalita" size="94,21" id="{UMLID=_gWEG0VEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#setFInalita(Lcom.smartaparts.domain.FInalita;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTipologia" size="103,21" id="{UMLID=_brNhQFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#getTipologia()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTipologia" size="103,21" id="{UMLID=_brNhQ1EJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#setTipologia(Lcom.smartaparts.domain.Tipologia;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUtente" size="92,21" id="{UMLID=_AJHJEFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#getUtente()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUtente" size="92,21" id="{UMLID=_AJHwIlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#setUtente(Lcom.smartaparts.domain.Utente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCommento" size="111,21" id="{UMLID=_0h-RYlEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#getCommento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCommento" size="111,21" id="{UMLID=_0h-4clEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Ordine#setCommento(Lcom.smartaparts.domain.Commento;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Default" autoLocated="true" id="{UMLID=_GaVPgFEHEeCABYh4XD7hOQ}" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ordini" location="0,195" id="{UMLID=_GaV2kFEHEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1177,615" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- ordini" location="1148,587" size="33,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamento" location="178,288" id="{UMLID=_GaVPgVEHEeCABYh4XD7hOQ}" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="799,615" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamento" location="799,587" size="73,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Default" autoLocated="true" id="{UMLID=_0b1NIFEHEeCABYh4XD7hOQ}" source="//@children.2" target="//@children.12" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ordine" location="0,10" id="{UMLID=_0b10M1EHEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1175,403" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- ordine" location="1144,431" size="37,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="commento" location="140,254" id="{UMLID=_0b10MFEHEeCABYh4XD7hOQ}" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1139,343" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- commento" location="1069,343" size="56,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_WbFrcFEJEeCABYh4XD7hOQ}" source="//@children.2" target="//@children.13" targetEnd="//@children.2/@sourceConnections.2/@children.1" label="//@children.2/@sourceConnections.2/@children.2" sourceEnd="//@children.2/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ordini" location="82,0" id="{UMLID=_WbGSg1EJEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1259,392" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- ordini" location="1277,392" size="33,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="tipologia" location="67,323" id="{UMLID=_WbGSgFEJEeCABYh4XD7hOQ}" multiplicityLabel="//@children.2/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1245,287" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- tipologia" location="1277,287" size="46,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_cdn1oFEJEeCABYh4XD7hOQ}" source="//@children.2" target="//@children.14" targetEnd="//@children.2/@sourceConnections.3/@children.1" label="//@children.2/@sourceConnections.3/@children.2" sourceEnd="//@children.2/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ordini" location="150,10" id="{UMLID=_cdocsFEJEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.3/@children.0/@children.0" roleLabel="//@children.2/@sourceConnections.3/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1345,403" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- ordini" location="1345,431" size="33,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fInalita" location="10,323" id="{UMLID=_cdn1oVEJEeCABYh4XD7hOQ}" multiplicityLabel="//@children.2/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.3/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1412,287" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- fInalita" location="1444,287" size="38,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Foto" location="938,770" size="150,188" timstampe="30" stereotype="" description="UML" id="{UMLID=_kW6C4FEFEeCABYh4XD7hOQ}" runTimeClassModel="setUrl(Ljava.lang.String;),getAppartamento(),getUrl(),setAppartamento(Lcom.smartaparts.domain.Appartamento;),url,appartamento">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_hSI04FEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="url" size="77,16" description="UML" id="{UMLID=_aE59oFHAEeCPMqo0_hyqxA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="attribute" size="68,16" id="{UMLID=_COBWIFHCEeCPMqo0_hyqxA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,46">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_je5nYlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Foto#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_je5AUFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Foto#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUrl" size="96,16" id="{UMLID=_CY5wcFHCEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Foto#setUrl(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUrl" size="96,16" id="{UMLID=_CY6XgVHCEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Foto#getUrl()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="Prezzo" location="963,977" size="150,116" timstampe="13" stereotype="" id="{UMLID=_lmIPEFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Prezzo}" runTimeClassModel="getAppartamento(),setAppartamento(Lcom.smartaparts.domain.Appartamento;),appartamento">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_m0YVcFEGEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,46">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_oTtaMFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Prezzo#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_oTuBQFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Prezzo#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="Sconto" location="965,1106" size="150,116" timstampe="13" stereotype="" id="{UMLID=_nRjPEFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Sconto}" runTimeClassModel="getAppartamento(),setAppartamento(Lcom.smartaparts.domain.Appartamento;),appartamento">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_tbVbVFEGEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,46">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_u_mqcFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Sconto#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_u_lcUFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Sconto#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3" name="LastMinute" location="966,1232" size="150,116" timstampe="13" stereotype="" id="{UMLID=_o9P74FEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/LastMinute}" runTimeClassModel="getAppartamento(),setAppartamento(Lcom.smartaparts.domain.Appartamento;),appartamento">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_xUk9w1EGEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,46">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_zHYYIFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/LastMinute#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_zHY_MlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/LastMinute#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Continente" location="20,208" size="188,599" timstampe="20" stereotype="" id="{UMLID=_rUxM4FEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente}" runTimeClassModel="appartamentiSize(),appartamenti,containsAppartamenti(Lcom.smartaparts.domain.Appartamento;),setNazioni(LCollection;),addNazioni(Lcom.smartaparts.domain.Nazione;),removeAppartamenti(Lcom.smartaparts.domain.Appartamento;),appartamentiIterator(),containsNazioni(Lcom.smartaparts.domain.Nazione;),nazioniIterator(),containsAllAppartamenti(LCollection;),nazioniSize(),nazioniToArray(),isNazioniEmpty(),clearNazioni(),removeNazioni(Lcom.smartaparts.domain.Nazione;),containsAllNazioni(LCollection;),appartamentiToArray(),getAppartamenti(),clearAppartamenti(),isAppartamentiEmpty(),getNazioni(),setAppartamenti(LCollection;),nazioni,addAppartamenti(Lcom.smartaparts.domain.Appartamento;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,46">
+      <children xsi:type="editmodel:AttributeEditModel" name="nazioni" size="73,21" id="{UMLID=_yLnI4FEFEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamenti" size="101,21" id="{UMLID=_opr_UFEIEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,460">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamenti" size="125,21" id="{UMLID=_sLpqMFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#getAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiIterator" size="151,21" id="{UMLID=_sLqRQVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#appartamentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAppartamentiEmpty" size="133,21" id="{UMLID=_sLq4UlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#isAppartamentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAppartamenti" size="138,21" id="{UMLID=_1yM1ElEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#containsAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllAppartamenti" size="155,21" id="{UMLID=_sLrfYVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#containsAllAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiSize" size="138,21" id="{UMLID=_sLvJwlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#appartamentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiToArray" size="146,21" id="{UMLID=_sLstglEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#appartamentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamenti" size="123,21" id="{UMLID=_1yLm8lEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#setAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAppartamenti" size="151,21" id="{UMLID=_sLt7oFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#addAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAppartamenti" size="129,21" id="{UMLID=_sLn1AlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#removeAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearAppartamenti" size="167,21" id="{UMLID=_1yRGgVEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#clearAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNazioni" size="126,21" id="{UMLID=_1yUJ0lEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#getNazioni()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nazioniIterator" size="118,21" id="{UMLID=_1yKY0FEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#nazioniIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNazioniEmpty" size="105,21" id="{UMLID=_1yOqQFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#isNazioniEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsNazioni" size="121,21" id="{UMLID=_1yP4YFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#containsNazioni(Lcom.smartaparts.domain.Nazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllNazioni" size="150,21" id="{UMLID=_sLocElEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#containsAllNazioni(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nazioniSize" size="103,21" id="{UMLID=_1ySUoFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#nazioniSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nazioniToArray" size="129,21" id="{UMLID=_sLsGc1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#nazioniToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNazioni" size="109,21" id="{UMLID=_1yPRUVEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#setNazioni(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addNazioni" size="122,21" id="{UMLID=_1yVX8VEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#addNazioni(Lcom.smartaparts.domain.Nazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeNazioni" size="117,21" id="{UMLID=_sLt7o1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#removeNazioni(Lcom.smartaparts.domain.Nazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearNazioni" size="100,21" id="{UMLID=_1yTiwFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Continente#clearNazioni()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_yLmh0FEFEeCABYh4XD7hOQ}" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.0/@children.1" label="//@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="continente" location="97,599" id="{UMLID=_yLnv8FEFEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="103,813" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- continente" location="117,851" size="57,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="8.0" distanceFromWire="29.0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="nazioni" location="89,0" id="{UMLID=_yLnI4FEFEeCABYh4XD7hOQ}" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="105,873" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- nazioni" location="123,873" size="41,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" id="{UMLID=_dabjgFEGEeCABYh4XD7hOQ}" source="//@children.7" target="//@children.11" targetEnd="//@children.7/@sourceConnections.1/@children.1" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,643" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_oprYQFEIEeCABYh4XD7hOQ}" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.2/@children.1" label="//@children.7/@sourceConnections.2/@children.2" sourceEnd="//@children.7/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="continente" location="188,528" id="{UMLID=_opr_U1EIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.7/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="215,715" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- continente" location="215,743" size="57,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamenti" location="0,346" id="{UMLID=_opr_UFEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.7/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="603,673" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamenti" location="538,645" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Nazione" location="28,895" size="188,668" timstampe="24" stereotype="" id="{UMLID=_sXuesFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione}" runTimeClassModel="appartamentiSize(),containsAppartamenti(Lcom.smartaparts.domain.Appartamento;),isCittasEmpty(),removeAppartamenti(Lcom.smartaparts.domain.Appartamento;),cittasToArray(),cittasIterator(),containsAllAppartamenti(LCollection;),addCittas(Lcom.smartaparts.domain.Citta;),continente,getContinente(),appartamentiToArray(),containsCittas(Lcom.smartaparts.domain.Citta;),cittasSize(),setContinente(Lcom.smartaparts.domain.Continente;),appartamenti,appartamentiIterator(),clearCittas(),cittas,setCittas(LCollection;),removeCittas(Lcom.smartaparts.domain.Citta;),getCittas(),getAppartamenti(),clearAppartamenti(),isAppartamentiEmpty(),setAppartamenti(LCollection;),containsAllCittas(LCollection;),addAppartamenti(Lcom.smartaparts.domain.Appartamento;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,69">
+      <children xsi:type="editmodel:AttributeEditModel" name="continente" size="85,21" id="{UMLID=_yLnv8FEFEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamenti" size="101,21" id="{UMLID=_lMp3wVEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cittas" size="55,21" id="{UMLID=_6V4boFEFEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,529">
+      <children xsi:type="editmodel:MethodEditModel" name="cittasIterator" size="87,21" id="{UMLID=_AnHwMFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#cittasIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamenti" size="120,21" id="{UMLID=_n0990lEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#getAppartamenti()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsCittas" size="105,21" id="{UMLID=_AnJlYVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#containsCittas(Lcom.smartaparts.domain.Citta;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiIterator" size="82,21" id="{UMLID=_AnC3sFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#appartamentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAppartamentiEmpty" size="167,21" id="{UMLID=_n1C2UlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#isAppartamentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiSize" size="151,21" id="{UMLID=_n1CPQFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#appartamentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAppartamenti" size="132,21" id="{UMLID=_n0-k41EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#addAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAppartamenti" size="129,21" id="{UMLID=_n0_zAFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#removeAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearAppartamenti" size="129,21" id="{UMLID=_n1DdY1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#clearAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContinente" size="112,21" id="{UMLID=_1xmYIFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#getContinente()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearCittas" size="138,21" id="{UMLID=_n1BoM1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#clearCittas()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeCittas" size="133,21" id="{UMLID=_n1EEclEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#removeCittas(Lcom.smartaparts.domain.Citta;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllAppartamenti" size="151,21" id="{UMLID=_AnGiElEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#containsAllAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContinente" size="112,21" id="{UMLID=_1xnmQFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#setContinente(Lcom.smartaparts.domain.Continente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllCittas" size="108,21" id="{UMLID=_AnBpkVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#containsAllCittas(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamenti" size="85,21" id="{UMLID=_AnIXQVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#setAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCittas" size="100,21" id="{UMLID=_AnKzgVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#setCittas(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCittas" size="104,21" id="{UMLID=_AnEF0VEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#addCittas(Lcom.smartaparts.domain.Citta;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAppartamenti" size="146,21" id="{UMLID=_n1ErglEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#containsAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCittasEmpty" size="150,21" id="{UMLID=_n1AaEFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#isCittasEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiToArray" size="155,21" id="{UMLID=_n1BBIlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#appartamentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCittas" size="82,21" id="{UMLID=_AnF7AVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#getCittas()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cittasToArray" size="91,21" id="{UMLID=_AnLakVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#cittasToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cittasSize" size="103,21" id="{UMLID=_AnFT8FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Nazione#cittasSize()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_6V30kFEFEeCABYh4XD7hOQ}" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.1" label="//@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="nazione" location="188,432" id="{UMLID=_6V4bo1EFEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.8/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="223,1333" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- nazione" location="223,1305" size="45,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="cittas" location="0,235" id="{UMLID=_6V4boFEFEeCABYh4XD7hOQ}" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="314,1333" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- cittas" location="285,1305" size="33,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_bJjGAFEGEeCABYh4XD7hOQ}" source="//@children.8" target="//@children.11" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,132"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_lMp3wFEIEeCABYh4XD7hOQ}" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.2/@children.1" label="//@children.8/@sourceConnections.2/@children.2" sourceEnd="//@children.8/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="nazione" location="188,153" id="{UMLID=_lMqe0FEIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.8/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="223,1055" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- nazione" location="223,1027" size="45,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamenti" location="0,734" id="{UMLID=_lMp3wVEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.8/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.8/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="603,1033" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamenti" location="538,1061" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="Citta" location="326,1092" size="188,668" timstampe="24" stereotype="" id="{UMLID=_t0Xb0FEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta}" runTimeClassModel="zoneToArray(),appartamentiSize(),containsAppartamenti(Lcom.smartaparts.domain.Appartamento;),removeAppartamenti(Lcom.smartaparts.domain.Appartamento;),getZone(),containsAllAppartamenti(LCollection;),zoneIterator(),nazione,setNazione(Lcom.smartaparts.domain.Nazione;),clearZone(),appartamentiToArray(),containsAllZone(LCollection;),isZoneEmpty(),addZone(Lcom.smartaparts.domain.Zona;),appartamenti,setZone(LCollection;),appartamentiIterator(),containsZone(Lcom.smartaparts.domain.Zona;),removeZone(Lcom.smartaparts.domain.Zona;),zoneSize(),getNazione(),getAppartamenti(),clearAppartamenti(),isAppartamentiEmpty(),setAppartamenti(LCollection;),zone,addAppartamenti(Lcom.smartaparts.domain.Appartamento;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,69">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamenti" size="101,21" id="{UMLID=_V8k_8FEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zone" size="59,21" id="{UMLID=_DMl9oVEGEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nazione" size="73,21" id="{UMLID=_6V4bo1EFEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,506">
+      <children xsi:type="editmodel:MethodEditModel" name="getNazione" size="100,21" id="{UMLID=_Amp2IFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#getNazione()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNazione" size="100,21" id="{UMLID=_AmrEQFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#setNazione(Lcom.smartaparts.domain.Nazione;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getZone" size="138,21" id="{UMLID=_amRu8FEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#getZone()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoneIterator" size="108,21" id="{UMLID=_GG6ZsFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#zoneIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isZoneEmpty" size="109,21" id="{UMLID=_GG7AwVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#isZoneEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsZone" size="91,21" id="{UMLID=_GG1hMFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#containsZone(Lcom.smartaparts.domain.Zona;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamenti" size="151,21" id="{UMLID=_amXOgVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#setAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoneSize" size="89,21" id="{UMLID=_GG3WYFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#zoneSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoneToArray" size="86,21" id="{UMLID=_GG8O4VEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#zoneToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setZone" size="95,21" id="{UMLID=_GG06IVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#setZone(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addZone" size="112,21" id="{UMLID=_GGzsAVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#addZone(Lcom.smartaparts.domain.Zona;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeZone" size="104,21" id="{UMLID=_GG4kgFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#removeZone(Lcom.smartaparts.domain.Zona;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearZone" size="132,21" id="{UMLID=_amRu8VEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#clearZone()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamenti" size="155,21" id="{UMLID=_amTkIVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#getAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiIterator" size="133,21" id="{UMLID=_GG2IQlEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#appartamentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAppartamentiEmpty" size="151,21" id="{UMLID=_amWncFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#isAppartamentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAppartamenti" size="150,21" id="{UMLID=_amUyQlEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#containsAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllAppartamenti" size="86,21" id="{UMLID=_amULM1EIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#containsAllAppartamenti(LCollection;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiSize" size="124,21" id="{UMLID=_amSWBFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#appartamentiSize()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiToArray" size="146,21" id="{UMLID=_amX1kFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#appartamentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllZone" size="107,21" id="{UMLID=_GG5LkVEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#containsAllZone(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAppartamenti" size="129,21" id="{UMLID=_amYcoFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#addAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAppartamenti" size="129,21" id="{UMLID=_amWAYFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#removeAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearAppartamenti" size="167,21" id="{UMLID=_GGyd4VEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Citta#clearAppartamenti()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_DMl9oFEGEeCABYh4XD7hOQ}" source="//@children.9" target="//@children.10" targetEnd="//@children.9/@sourceConnections.0/@children.1" label="//@children.9/@sourceConnections.0/@children.2" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="citta" location="80,0" id="{UMLID=_DMmksFEGEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.0/@children.0/@children.0" roleLabel="//@children.9/@sourceConnections.0/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="392,1071" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- citta" location="412,1071" size="27,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="zone" location="106,392" id="{UMLID=_DMl9oVEGEeCABYh4XD7hOQ}" multiplicityLabel="//@children.9/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.9/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="394,608" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- zone" location="412,608" size="31,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_cqbp8FEGEeCABYh4XD7hOQ}" source="//@children.9" target="//@children.11" targetEnd="//@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,155"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_V8kY4FEIEeCABYh4XD7hOQ}" source="//@children.9" target="//@children.0" targetEnd="//@children.9/@sourceConnections.2/@children.1" label="//@children.9/@sourceConnections.2/@children.2" sourceEnd="//@children.9/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="citta" location="188,333" id="{UMLID=_V8k_81EIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.2/@children.0/@children.0" roleLabel="//@children.9/@sourceConnections.2/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="520,1431" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- citta" location="520,1403" size="27,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamenti" location="0,1104" id="{UMLID=_V8k_8FEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.9/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.9/@sourceConnections.2/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="603,1431" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamenti" location="538,1403" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="Zona" location="300,210" size="188,392" timstampe="23" stereotype="" id="{UMLID=_wPOUsFEFEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona}" runTimeClassModel="appartamentiSize(),citta,appartamenti,containsAppartamenti(Lcom.smartaparts.domain.Appartamento;),getCitta(),removeAppartamenti(Lcom.smartaparts.domain.Appartamento;),appartamentiIterator(),containsAllAppartamenti(LCollection;),setCitta(Lcom.smartaparts.domain.Citta;),appartamentiToArray(),getAppartamenti(),clearAppartamenti(),isAppartamentiEmpty(),setAppartamenti(LCollection;),addAppartamenti(Lcom.smartaparts.domain.Appartamento;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,46">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamenti" size="101,21" id="{UMLID=_fTAj0VEIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="citta" size="55,21" id="{UMLID=_DMmksFEGEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,299">
+      <children xsi:type="editmodel:MethodEditModel" name="getCitta" size="82,21" id="{UMLID=_GGeU0FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#getCitta()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCitta" size="82,21" id="{UMLID=_GGe74FEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#setCitta(Lcom.smartaparts.domain.Citta;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamenti" size="146,21" id="{UMLID=_jwn-pVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#getAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiIterator" size="129,21" id="{UMLID=_jwrpAFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#appartamentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAppartamentiEmpty" size="155,21" id="{UMLID=_jwolslEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#isAppartamentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAppartamenti" size="129,21" id="{UMLID=_jwnXklEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#containsAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllAppartamenti" size="138,21" id="{UMLID=_jwn-oVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#containsAllAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiSize" size="167,21" id="{UMLID=_jwliYVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#appartamentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiToArray" size="151,21" id="{UMLID=_jwmJclEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#appartamentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamenti" size="151,21" id="{UMLID=_jwmwgVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#setAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAppartamenti" size="150,21" id="{UMLID=_jwqa4lEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#addAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAppartamenti" size="133,21" id="{UMLID=_jwn-olEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#removeAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearAppartamenti" size="132,21" id="{UMLID=_jwpz0VEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Zona#clearAppartamenti()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_WtCecFEGEeCABYh4XD7hOQ}" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,392" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_fTAj0FEIEeCABYh4XD7hOQ}" source="//@children.10" target="//@children.0" targetEnd="//@children.10/@sourceConnections.1/@children.1" label="//@children.10/@sourceConnections.1/@children.2" sourceEnd="//@children.10/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="zona" location="159,251" id="{UMLID=_fTAj1FEIEeCABYh4XD7hOQ}" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.10/@sourceConnections.1/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="495,467" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- zona" location="495,439" size="31,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamenti" location="0,140" id="{UMLID=_fTAj0VEIEeCABYh4XD7hOQ}" multiplicityLabel="//@children.10/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.10/@sourceConnections.1/@children.1/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="603,467" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamenti" location="538,439" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.9/@sourceConnections.1 //@children.7/@sourceConnections.1" name="Geo" location="252,784" size="117,155" timstampe="77" stereotype="" id="{UMLID=_PK3tgFEGEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Geo}" runTimeClassModel="setUrlFoto(Ljava.lang.String;),getNome(),setNome(Ljava.lang.String;),getUrlFoto(),nome,urlFoto">
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="urlFoto" size="68,16" id="{UMLID=_2UvQcFHAEeCPMqo0_hyqxA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nome" size="68,16" id="{UMLID=_kTNvQFHBEeCPMqo0_hyqxA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="getNome" size="82,16" id="{UMLID=_tnGVcFHBEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Geo#getNome()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNome" size="82,16" id="{UMLID=_tnG8glHBEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Geo#setNome(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUrlFoto" size="96,16" id="{UMLID=_2d5McFHAEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Geo#getUrlFoto()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUrlFoto" size="96,16" id="{UMLID=_2d5zgFHAEeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Geo#setUrlFoto(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.1/@sourceConnections.1 //@children.0/@sourceConnections.4" name="Commento" location="993,83" size="150,254" timstampe="25" stereotype="" id="{UMLID=_l584EFEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento}" runTimeClassModel="getUtente(),setOrdine(Lcom.smartaparts.domain.Ordine;),getAppartamento(),utente,getOrdine(),setAppartamento(Lcom.smartaparts.domain.Appartamento;),ordine,setUtente(Lcom.smartaparts.domain.Utente;),appartamento">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,69">
+      <children xsi:type="editmodel:AttributeEditModel" name="ordine" size="65,21" id="{UMLID=_0b10M1EHEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="utente" size="65,21" id="{UMLID=_Ja-gk1EIEeCABYh4XD7hOQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamento" size="101,21" id="{UMLID=_LKCDY1EIEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,138">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamento" size="129,21" id="{UMLID=_MAhmgVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#getAppartamento()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamento" size="129,21" id="{UMLID=_MAg_clEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#setAppartamento(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUtente" size="92,21" id="{UMLID=_JouosVEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#getUtente()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUtente" size="92,21" id="{UMLID=_JovPwFEIEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#setUtente(Lcom.smartaparts.domain.Utente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdine" size="93,21" id="{UMLID=_0hwO8FEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#getOrdine()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdine" size="93,21" id="{UMLID=_0hvn4FEHEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Commento#setOrdine(Lcom.smartaparts.domain.Ordine;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="Tipologia" location="1204,-42" size="152,323" timstampe="16" stereotype="" id="{UMLID=_S_VWQFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia}" runTimeClassModel="containsOrdini(Lcom.smartaparts.domain.Ordine;),ordini,setOrdini(LCollection;),removeOrdini(Lcom.smartaparts.domain.Ordine;),ordiniToArray(),isOrdiniEmpty(),ordiniSize(),ordiniIterator(),getOrdini(),addOrdini(Lcom.smartaparts.domain.Ordine;),containsAllOrdini(LCollection;),clearOrdini()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="ordini" size="65,21" id="{UMLID=_WbGSg1EJEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,253">
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdini" size="131,21" id="{UMLID=_bq9CkFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#getOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearOrdini" size="119,21" id="{UMLID=_lI91IVEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#clearOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniSize" size="96,21" id="{UMLID=_lI7Y41EJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#ordiniSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdini" size="115,21" id="{UMLID=_lI9OEFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#setOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeOrdini" size="97,21" id="{UMLID=_lI7Y4FEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#removeOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllOrdini" size="110,21" id="{UMLID=_lI5jsVEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#containsAllOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniToArray" size="93,21" id="{UMLID=_bq-QsFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#ordiniToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOrdini" size="114,21" id="{UMLID=_lI6KwlEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#addOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsOrdini" size="93,21" id="{UMLID=_lI8nAFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#containsOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniIterator" size="115,21" id="{UMLID=_lI-cMlEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#ordiniIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOrdiniEmpty" size="102,21" id="{UMLID=_lI6KwVEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/Tipologia#isOrdiniEmpty()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3" name="FInalita" location="1428,-42" size="152,323" timstampe="14" stereotype="" id="{UMLID=_UeL54FEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita}" runTimeClassModel="containsOrdini(Lcom.smartaparts.domain.Ordine;),ordini,setOrdini(LCollection;),ordiniToArray(),removeOrdini(Lcom.smartaparts.domain.Ordine;),isOrdiniEmpty(),ordiniSize(),getOrdini(),ordiniIterator(),addOrdini(Lcom.smartaparts.domain.Ordine;),containsAllOrdini(LCollection;),clearOrdini()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="ordini" size="65,21" id="{UMLID=_cdocsFEJEeCABYh4XD7hOQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,253">
+      <children xsi:type="editmodel:MethodEditModel" name="removeOrdini" size="115,21" id="{UMLID=_gU7eYlEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#removeOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearOrdini" size="110,21" id="{UMLID=_gU63UlEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#clearOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniToArray" size="93,21" id="{UMLID=_gU8sgFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#ordiniToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdini" size="93,21" id="{UMLID=_gU-hsFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#setOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsOrdini" size="115,21" id="{UMLID=_gU8sg1EJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#containsOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdini" size="131,21" id="{UMLID=_gU_IwFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#getOrdini()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOrdini" size="119,21" id="{UMLID=_gU6QRFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#addOrdini(Lcom.smartaparts.domain.Ordine;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOrdiniEmpty" size="102,21" id="{UMLID=_gU8FclEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#isOrdiniEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniSize" size="97,21" id="{UMLID=_gU6QQVEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#ordiniSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllOrdini" size="96,21" id="{UMLID=_gU5CIFEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#containsAllOrdini(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ordiniIterator" size="114,21" id="{UMLID=_gU9TklEJEeCABYh4XD7hOQ,JavaID=com.smartaparts.domain/FInalita#ordiniIterator()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.2" name="Autorizzazione" location="1631,1049" size="151,323" timstampe="16" stereotype="" id="{UMLID=_s-Ba8FELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione}" runTimeClassModel="utentiToArray(),utentiSize(),setUtenti(LCollection;),containsAllUtenti(LCollection;),removeUtenti(Lcom.smartaparts.domain.Utente;),addUtenti(Lcom.smartaparts.domain.Utente;),containsUtenti(Lcom.smartaparts.domain.Utente;),utentiIterator(),getUtenti(),clearUtenti(),utenti,isUtentiEmpty()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="utenti" size="65,21" id="{UMLID=_xBLHUFELEeCZg4ntwV2U2A}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,253">
+      <children xsi:type="editmodel:MethodEditModel" name="getUtenti" size="92,21" id="{UMLID=_3BgSEVELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#getUtenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="utentiSize" size="95,21" id="{UMLID=_3BfrAFELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#utentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="utentiIterator" size="92,21" id="{UMLID=_xfcXsFELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#utentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="utentiToArray" size="130,21" id="{UMLID=_3BcnslELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#utentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearUtenti" size="110,21" id="{UMLID=_3Bd10VELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#clearUtenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addUtenti" size="114,21" id="{UMLID=_3BiHQlELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#addUtenti(Lcom.smartaparts.domain.Utente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeUtenti" size="115,21" id="{UMLID=_xfez8FELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#removeUtenti(Lcom.smartaparts.domain.Utente;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isUtentiEmpty" size="101,21" id="{UMLID=_3Bg5IlELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#isUtentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUtenti" size="118,21" id="{UMLID=_3Bec4VELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#setUtenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllUtenti" size="97,21" id="{UMLID=_3BcAolELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#containsAllUtenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsUtenti" size="113,21" id="{UMLID=_3BhgMFELEeCZg4ntwV2U2A,JavaID=com.smartaparts.domain/Autorizzazione#containsUtenti(Lcom.smartaparts.domain.Utente;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Proprietario" location="1358,868" size="194,323" timstampe="40" stereotype="" id="{UMLID=_Wd9XAFG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario}" runTimeClassModel="appartamentiSize(),containsAppartamenti(Lcom.smartaparts.domain.Appartamento;),appartamenti,removeAppartamenti(Lcom.smartaparts.domain.Appartamento;),appartamentiIterator(),getAppartamenti(),appartamentiToArray(),clearAppartamenti(),isAppartamentiEmpty(),containsAllAppartamenti(LCollection;),setAppartamenti(LCollection;),addAppartamenti(Lcom.smartaparts.domain.Appartamento;)">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="appartamenti" size="101,21" id="{UMLID=_eRvcYFG-EeCPMqo0_hyqxA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="removeAppartamenti" size="129,21" id="{UMLID=_fzDeIFG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#removeAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllAppartamenti" size="129,21" id="{UMLID=_fzHvklG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#containsAllAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiToArray" size="138,21" id="{UMLID=_fzBB4FG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#appartamentiToArray()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppartamenti" size="132,21" id="{UMLID=_fzF6YlG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#getAppartamenti()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppartamenti" size="133,21" id="{UMLID=_fzEFMFG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#setAppartamenti(LCollection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiIterator" size="151,21" id="{UMLID=_fzC3EFG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#appartamentiIterator()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appartamentiSize" size="151,21" id="{UMLID=_fzHIgVG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#appartamentiSize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAppartamenti" size="155,21" id="{UMLID=_fzIWolG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#addAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAppartamentiEmpty" size="146,21" id="{UMLID=_fzFTUlG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#isAppartamentiEmpty()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAppartamenti" size="167,21" id="{UMLID=_fzEsQFG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#containsAppartamenti(Lcom.smartaparts.domain.Appartamento;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearAppartamenti" size="150,21" id="{UMLID=_fzBo8FG-EeCPMqo0_hyqxA,JavaID=com.smartaparts.domain/Proprietario#clearAppartamenti()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_Wd-lIFG-EeCPMqo0_hyqxA}" source="//@children.16" target="//@children.1" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="191,55" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,713"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Aggregation" id="{UMLID=_eRu1UFG-EeCPMqo0_hyqxA}" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.1/@children.1" label="//@children.16/@sourceConnections.1/@children.2" sourceEnd="//@children.16/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="proprietario" location="0,161" id="{UMLID=_eRwDcFG-EeCPMqo0_hyqxA}" attachSource="true" multiplicityLabel="//@children.16/@sourceConnections.1/@children.0/@children.0" roleLabel="//@children.16/@sourceConnections.1/@children.0/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1344,1007" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- proprietario" location="1288,1035" size="62,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="appartamenti" location="182,338" id="{UMLID=_eRvcYFG-EeCPMqo0_hyqxA}" multiplicityLabel="//@children.16/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.16/@sourceConnections.1/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="799,665" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- appartamenti" location="799,637" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="546,2128" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
